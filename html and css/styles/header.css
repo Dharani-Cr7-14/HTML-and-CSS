@@ -1,0 +1,148 @@
+.header{
+   
+   height: 40px;
+    display: flex;
+    flex-direction: row;
+   
+    justify-content:space-between;
+    position: fixed;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    top: 0;
+    right: 0;
+    left: 0px;
+    z-index: 1;
+    border-bottom-width: 2px;
+    
+    border-bottom-color: rgb(193, 182, 182);
+    border-style: solid;
+    
+
+}
+.left_part{
+   
+    
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.middle_part{
+ 
+    flex: 1;
+    margin-left: 30px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}  
+.right_part{
+   
+    width: 200px;
+    margin-left: 40px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    padding-right: 20px;
+}
+.hamburger{
+    height: 20px;
+    margin-left: 0px;
+    margin-right: 20px;
+    background-color: white;
+}
+.youtube_logo{
+    height: 20px;
+    background-color:white ;
+}
+.search-button{
+    
+    border-color: gainsboro;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0,0.05);
+    background-color: #ffffff;
+    padding-left: -1px;
+    position: relative;
+   
+}
+.search_point,.voice_point{
+position: absolute;
+bottom: -25px;
+font-size: 15px;
+background-color: black;
+color: #ffffff;
+opacity: 0;
+border-radius: 30px;
+pointer-events: none;
+}
+.search-button:hover .search_point {
+    background-color: rgb(14, 14, 14);
+    opacity: 1;
+}
+.voice-button:hover .voice_point{
+    background-color: black;
+    opacity: 1;
+}
+.search_icon{
+    height: 22px;
+    width: 40px;
+    margin-top: 4px;
+    
+   
+}
+.voice_icon{
+    height: 25px;
+    width: 30px;
+    margin-top: 3px;
+    
+}
+.voice-button{
+    margin-left: 15px;
+    border-radius: 35px;
+    border: none;
+    position: relative;
+}
+.search-bar{
+    flex: 1;
+    height: 30px;
+    font-family: roboto;
+    font-size: 15px;
+    padding-left: 10px;
+    border-style: solid;
+    border-color: gainsboro;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0,0.05);
+    width: 0;
+
+
+}
+.upload{
+    height: 30px;
+    width: 30px;
+}
+.apps{
+    height: 30px;
+    width: 30px;
+}
+.notification{
+    height: 30px;
+    width: 30px;
+}
+.my_channel{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border: none;
+}
+.notification_design{
+    position: relative;
+}
+.notification_count{
+    position: absolute;
+    top: -3px;
+    right:-0.3px;
+    border-radius: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: white;
+    background-color: rgb(190, 9, 9);
+}
